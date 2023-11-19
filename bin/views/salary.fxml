@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="584.0" prefWidth="1025.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <BorderPane prefHeight="200.0" prefWidth="1024.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <left>
+                  <AnchorPane prefHeight="539.0" prefWidth="196.0" styleClass="anchor_paneBar" stylesheets="@../css/css.css" BorderPane.alignment="CENTER">
+                     <children>
+                        <FontAwesomeIcon fill="#f2ebeb" glyphName="USER" layoutX="58.0" layoutY="129.0" size="9em" />
+                        <Label layoutX="69.0" layoutY="151.0" text="Welcome" textFill="#f5f2f2">
+                           <font>
+                              <Font name="Arial Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="79.0" layoutY="173.0" text="admin" textFill="#f5f0f0">
+                           <font>
+                              <Font name="Arial Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Line endX="75.0" layoutX="100.0" layoutY="218.0" startX="-80.0" stroke="#f8f8f8" />
+                        <Button alignment="TOP_LEFT" layoutX="23.0" layoutY="246.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="155.0" styleClass="homeBnt" stylesheets="@../css/css.css" text="Home" textFill="#f8f7f7">
+                           <graphic>
+                              <FontAwesomeIcon fill="#f2f2f2" glyphName="HOME" size="1.2em" text="" />
+                           </graphic>
+                           <font>
+                              <Font name="Arial Bold" size="13.0" />
+                           </font>
+                        </Button>
+                        <Button alignment="BASELINE_LEFT" layoutX="20.0" layoutY="290.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="157.0" styleClass="homeBnt" stylesheets="@../css/css.css" text="Add Employee" textFill="#ebe7e7">
+                           <graphic>
+                              <FontAwesomeIcon fill="#fffafa" glyphName="PLUS" size="1.2em" />
+                           </graphic>
+                           <font>
+                              <Font name="Arial Bold" size="13.0" />
+                           </font>
+                        </Button>
+                        <Button alignment="BASELINE_LEFT" layoutX="21.0" layoutY="336.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="156.0" styleClass="homeBnt" stylesheets="@../css/css.css" text="Employee Salary" textFill="#f2eded">
+                           <graphic>
+                              <FontAwesomeIcon fill="#eeeaea" glyphName="MONEY" size="1.2em" />
+                           </graphic>
+                           <font>
+                              <Font name="Arial Bold" size="13.0" />
+                           </font>
+                        </Button>
+                        <Button alignment="BASELINE_LEFT" layoutX="14.0" layoutY="502.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="155.0" styleClass="homeBnt" stylesheets="@../css/css.css" text="Log out" textFill="WHITE" AnchorPane.bottomAnchor="14.0">
+                           <graphic>
+                              <FontAwesomeIcon fill="#f8f7f7" glyphName="SIGN_IN" size="1.4em" styleClass="homeBnt" />
+                           </graphic>
+                           <font>
+                              <Font name="Arial Bold" size="13.0" />
+                           </font>
+                        </Button>
+                     </children>
+                     <BorderPane.margin>
+                        <Insets />
+                     </BorderPane.margin>
+                  </AnchorPane>
+               </left>
+                <top>
+                  <AnchorPane prefHeight="12.0" prefWidth="1038.0" style="-fx-background-color: white;" styleClass="anchor_top" BorderPane.alignment="CENTER">
+                     <children>
+                        <Button layoutX="992.0" layoutY="-3.0" mnemonicParsing="false" styleClass="close" stylesheets="@../css/css.css" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="992.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="10.0">
+                           <graphic>
+                              <FontAwesomeIcon glyphName="CLOSE" />
+                           </graphic>
+                        </Button>
+                        <Button layoutX="958.0" layoutY="-3.0" mnemonicParsing="false" styleClass="close" stylesheets="@../css/css.css" AnchorPane.bottomAnchor="10.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="10.0">
+                           <graphic>
+                              <FontAwesomeIcon glyphName="MINUS" styleClass="close" />
+                           </graphic>
+                        </Button>
+                     </children></AnchorPane>
+               </top>
+               <center>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+               </center>
+            </BorderPane>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

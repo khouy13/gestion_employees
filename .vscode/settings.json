@@ -1,0 +1,33 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": {
+        "include": [
+            "lib/**/*.jar",
+            "c:\\Users\\lenovo\\Downloads\\javafx-sdk-20.0.1\\lib\\javafx.base.jar",
+            "c:\\Users\\lenovo\\Downloads\\javafx-sdk-20.0.1\\lib\\javafx.controls.jar",
+            "c:\\Users\\lenovo\\Downloads\\javafx-sdk-20.0.1\\lib\\javafx.fxml.jar",
+            "c:\\Users\\lenovo\\Downloads\\javafx-sdk-20.0.1\\lib\\javafx.graphics.jar",
+            "c:\\Users\\lenovo\\Downloads\\javafx-sdk-20.0.1\\lib\\javafx.media.jar",
+            "c:\\Users\\lenovo\\Downloads\\javafx-sdk-20.0.1\\lib\\javafx.swing.jar",
+            "c:\\Users\\lenovo\\Downloads\\javafx-sdk-20.0.1\\lib\\javafx.web.jar",
+            "c:\\Users\\lenovo\\Downloads\\javafx-sdk-20.0.1\\lib\\javafx-swt.jar",
+            "c:\\Users\\lenovo\\Downloads\\fontawesomefx-8.9.jar",
+            "c:\\font\\fontawesomefx-8.9-sources.jar",
+            "c:\\font\\itextpdf-5.4.3-sources.jar",
+            "c:\\javafx-sdk-20.0.1\\lib\\javafx.base.jar",
+            "c:\\javafx-sdk-20.0.1\\lib\\javafx.controls.jar",
+            "c:\\javafx-sdk-20.0.1\\lib\\javafx.fxml.jar",
+            "c:\\javafx-sdk-20.0.1\\lib\\javafx.graphics.jar",
+            "c:\\javafx-sdk-20.0.1\\lib\\javafx.media.jar",
+            "c:\\javafx-sdk-20.0.1\\lib\\javafx.swing.jar",
+            "c:\\javafx-sdk-20.0.1\\lib\\javafx.web.jar",
+            "c:\\javafx-sdk-20.0.1\\lib\\javafx-swt.jar"
+        ],
+        "exclude": [
+            "c:\\mysql-connector-j-8.0.33.jar",
+            "c:\\font\\fontawesomefx-8.9.jar",
+            "c:\\font\\fontawesomefx-glyphsbrowser-all-1.0.jar"
+        ]
+    }
+}
